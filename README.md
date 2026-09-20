@@ -33,7 +33,7 @@ Perform 3 master strikes or clinches in a row to gain health, morale, and increa
 - [MCM (Mod Configuration Menu)](https://www.nexusmods.com/mountandblade2bannerlord/mods/612)
 
 Optional:
-- [RBM (Realistic Battle Mod)](https://www.nexusmods.com/mountandblade2bannerlord/mods/2854) — for the RBM-integrated version. Use the `MasterStrikes.RBM` submod.
+- [RBM (Realistic Battle Mod)](https://www.nexusmods.com/mountandblade2bannerlord/mods/791) — for the RBM-integrated version. Use the `MasterStrikes.RBM` submod.
 
 
 ## Installation
