@@ -11,23 +11,17 @@
 **Мастер-страйки**
 Заблокируйте атаку врага и нажмите клавишу мастер-страйка одновременно с блоком. При выполнении условий вы проведёте кинематографичную контратаку, которая выведет врага из равновесия.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Reversezz/Master-Strikes/main/assets/gif1.gif" width="800" />
-</p>
+![Master Strike](assets/gif1.gif)
 
 **Увороты**
 Удерживайте клавишу уворота и нажмите A/S/D, чтобы уклониться в любом направлении. Работает с одноручным, двуручным и другим оружием.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Reversezz/Master-Strikes/main/assets/gif2.gif" width="800" />
-</p>
+![Master Strike](assets/gif2.gif)
 
 **Клинчи**
 Подойдите к врагу вплотную и нажмите клавишу клинча, чтобы схватить его и провести кинематографичный приём ближнего боя. Дополнительные кнопки не требуются.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Reversezz/Master-Strikes/main/assets/clinch_gif.gif" width="800" />
-</p>
+![Master Strike](assets/clinch_gif.gif)
 
 **Прилив адреналина**
 Проведите 3 мастер-страйка или клинча подряд, чтобы получить здоровье, мораль и повышенную агрессивность ИИ. Ближайшие союзники получают мораль, а враги её теряют.
@@ -68,13 +62,6 @@
 - Протестировано с AD1259 (1.4.6+) и ROT (1.4.8)
 - Совместимо с RBM через сабмод `MasterStrikes.RBM`
 
-## English version
-
-[Read in English (README.md)](README.md)
-
-## Скачать
-
-[Скачать на Nexus Mods](https://www.nexusmods.com/mountandblade2bannerlord/mods/12766)
 
 ## Лицензия
 
