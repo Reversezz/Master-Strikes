@@ -48,7 +48,7 @@
 - [MCM (Mod Configuration Menu)](https://www.nexusmods.com/mountandblade2bannerlord/mods/612)
 
 Опционально:
-- [RBM (Realistic Battle Mod)](https://www.nexusmods.com/mountandblade2bannerlord/mods/791) — для интеграции с RBM используйте мой сабмод `MasterStrikes.RBM`.
+- [RBM (Realistic Battle Mod)](https://www.nexusmods.com/mountandblade2bannerlord/mods/791)
 
 
 ## Установка
