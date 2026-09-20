@@ -48,7 +48,7 @@ A master strike or clinch can, with a certain chance, knock the opponent off bal
 - [MCM (Mod Configuration Menu)](https://www.nexusmods.com/mountandblade2bannerlord/mods/612)
 
 Optional:
-- [RBM (Realistic Battle Mod)](https://www.nexusmods.com/mountandblade2bannerlord/mods/791) — for RBM integration use the `MasterStrikes.RBM` submod.
+- [RBM (Realistic Battle Mod)](https://www.nexusmods.com/mountandblade2bannerlord/mods/791)
 
 
 ## Installation
