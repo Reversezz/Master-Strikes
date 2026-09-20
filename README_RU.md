@@ -28,7 +28,7 @@
 
 
 
-### Дополнительные возможности
+## Дополнительные возможности
 
 **Прилив адреналина**
 
@@ -39,14 +39,17 @@
 Мастерский удар или захват в клинч могут с определенной вероятностью вывести противника из равновесия, заставляя его демонстрировать особую анимацию шатания.
 
 
+
 ## Требования
 
 - [Harmony](https://www.nexusmods.com/mountandblade2bannerlord/mods/2006)
+- [UIExtenderEx](https://www.nexusmods.com/mountandblade2bannerlord/mods/2102)
 - [ButterLib](https://www.nexusmods.com/mountandblade2bannerlord/mods/2018)
 - [MCM (Mod Configuration Menu)](https://www.nexusmods.com/mountandblade2bannerlord/mods/612)
 
 Опционально:
-- [RBM (Realistic Battle Mod)](https://www.nexusmods.com/mountandblade2bannerlord/mods/791) — для версии с интеграцией RBM. Используйте сабмод `MasterStrikes.RBM`.
+- [RBM (Realistic Battle Mod)](https://www.nexusmods.com/mountandblade2bannerlord/mods/791) — для интеграции с RBM используйте мой сабмод `MasterStrikes.RBM`.
+
 
 ## Установка
 
