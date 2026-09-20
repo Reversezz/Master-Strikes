@@ -4,27 +4,27 @@
 
 Feel the thrill of combat! This mod adds KCD-style master strikes, dodges, and clinches. Slip past blows, catch the right moment, and turn your block into a deadly counterattack.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Reversezz/Master-Strikes/main/assets/masterstrike.gif" width="800" />
-</p>
 
 ## Features
 
 **Master Strikes**
 Block an enemy's attack and press the Master Strike key together with block. If the conditions are right, you will perform a cinematic counterattack that throws the enemy off balance.
 
+![Master Strike](assets/gif1.gif)
+
 **Dodges**
 Hold the Dodge key and press A/S/D to dodge in any direction. Works with one-handed, two-handed, and other weapon types.
+
+![Master Strike](assets/gif2.gif)
 
 **Clinches**
 Get close to an enemy and press the Clinch key to grab them and perform a cinematic close-quarters move. No extra buttons required.
 
+![Master Strike](assets/clinch_gif.gif)
+
 **Adrenaline Buff**
 Perform 3 master strikes or clinches in a row to gain health, morale, and increased AI aggressiveness. Nearby allies gain morale; nearby enemies lose it.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Reversezz/Master-Strikes/main/assets/clinch.gif" width="800" />
-</p>
 
 ## Requirements
 
@@ -35,6 +35,7 @@ Perform 3 master strikes or clinches in a row to gain health, morale, and increa
 Optional:
 - [RBM (Realistic Battle Mod)](https://www.nexusmods.com/mountandblade2bannerlord/mods/2854) — for the RBM-integrated version. Use the `MasterStrikes.RBM` submod.
 
+
 ## Installation
 
 1. Install Harmony, ButterLib, and MCM.
@@ -43,6 +44,7 @@ Optional:
 4. Enable the mod in the launcher.
 
 If you use RBM, also extract `MasterStrikes.RBM` and enable it after `MasterStrikes`.
+
 
 ## Configuration
 
@@ -60,13 +62,7 @@ All features can be toggled in the MCM settings menu:
 - Tested with AD1259 (1.4.6+) and ROT (1.4.8)
 - Compatible with RBM via the `MasterStrikes.RBM` submod
 
-## Russian version
 
-[Читать на русском (README_RU.md)](README_RU.md)
-
-## Download
-
-[Download on Nexus Mods](https://www.nexusmods.com/mountandblade2bannerlord/mods/12766)
 
 ## License
 
