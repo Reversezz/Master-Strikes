@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<action_types>
+
+	<!-- Dodges -->
+
+	<action name="act_2h_right_dodge" />
+	<action name="act_2h_left_dodge" />
+	<action name="act_2h_back_dodge" />
+
+	<action name="act_1h_right_dodge" />
+	<action name="act_1h_left_dodge" />
+	<action name="act_1h_back_dodge" />
+
+	<action name="act_other_2h_right_dodge" />
+	<action name="act_other_2h_left_dodge" />
+	<action name="act_other_2h_back_dodge" />
+				
+
+	<!-- Master Strikes -->
+
+		<!-- ТОЛЬКО ДЛЯ AFFECTOR C МЕЧОМ -->
+
+	<action name="act_affector_masterstrike_1h_sword_only_1" />
+	<action name="act_affected_masterstrike_1h_sword_only_1" />
+	<action name="act_affected_masterstrike_1h_sword_only_1_shield_variation" />
+
+	<!-- <action name="act_affector_masterstrike_1h_sword_only_2" /> -->
+	<!-- <action name="act_affected_masterstrike_1h_sword_only_2" /> -->
+
+	<action name="act_affector_masterstrike_1h_sword_only_3" />
+	<action name="act_affected_masterstrike_1h_sword_only_3" />
+	<action name="act_affected_masterstrike_1h_sword_only_3_shield_variation" />
+	<action name="act_affected_masterstrike_2h_vs_1h_sword_only_3" />
+
+
+		<!-- AFFECTOR и AFFECTED с любым одноручем -->
+
+	<action name="act_affector_masterstrike_1h_sword_stun" />
+	<action name="act_affected_masterstrike_1h_sword_stun" />
+	<action name="act_affected_masterstrike_1h_sword_stun_shield_variation" />
+	<action name="act_affected_masterstrike_2h_vs_1h_sword_stun" />
+
+	<!-- <action name="act_affector_masterstrike_1h_sidestep_shove" /> -->
+	<!-- <action name="act_affected_masterstrike_1h_sidestep_shove" /> -->
+
+	<action name="act_affector_masterstrike_1h_sword_1" />
+	<action name="act_affected_masterstrike_1h_sword_1" />
+	<action name="act_affected_masterstrike_2h_vs_1h_sword_1" />
+
+	<action name="act_affector_masterstrike_1h_and_shield_just_shove" />
+	<action name="act_affected_masterstrike_1h_and_shield_just_shove" />
+	<action name="act_affected_masterstrike_2h_vs_1h_and_shield_just_shove" />
+
+	<action name="act_affector_masterstrike_1h_and_shield_face_punch" />
+	<action name="act_affected_masterstrike_1h_and_shield_face_punch" />
+	<action name="act_affected_masterstrike_2h_vs_1h_and_shield_face_punch" />
+
+	<action name="act_affector_masterstrike_1h_and_shield_ukol_v_plecho" />
+	<action name="act_affected_masterstrike_1h_and_shield_ukol_v_plecho" />
+	<action name="act_affected_masterstrike_2h_vs_1h_and_shield_ukol_v_plecho" />
+
+	<action name="act_affector_masterstrike_1h_and_shield_ukol_v_plecho_2" />
+	<action name="act_affected_masterstrike_1h_and_shield_ukol_v_plecho_2" />
+
+	<action name="act_affector_masterstrike_1h_and_shield_double_stab" />
+	<action name="act_affected_masterstrike_1h_and_shield_double_stab" />
+	<action name="act_affected_masterstrike_2h_vs_1h_and_shield_double_stab" />
+
+	<action name="act_affector_masterstrike_onehanded_and_shield_1" />
+	<action name="act_affected_masterstrike_onehanded_and_shield_1" />
+
+	<action name="act_affector_masterstrike_onehanded_and_shield_2" />
+	<action name="act_affected_masterstrike_onehanded_and_shield_2" />
+
+		<!-- AFFECTOR и AFFECTED с любым двуручем -->
+
+	<action name="act_affector_masterstrike_2h_sword_1" />
+	<action name="act_affected_masterstrike_2h_sword_1" />
+	<action name="act_affected_masterstrike_1h_vs_2h_sword_1" />
+
+	<action name="act_affector_masterstrike_2h_sword_2" />
+	<action name="act_affected_masterstrike_2h_sword_2" />
+	<action name="act_affected_masterstrike_1h_vs_2h_sword_2" />
+
+	<action name="act_affector_masterstrike_2h_sword_3" />
+	<action name="act_affected_masterstrike_2h_sword_3" />			
+
+	<action name="act_affector_masterstrike_2h_sword_4" />
+	<action name="act_affected_masterstrike_2h_sword_4" />
+	<action name="act_affected_masterstrike_1h_vs_2h_sword_4" />
+
+	<action name="act_affector_masterstrike_2h_sword_5" />
+	<action name="act_affected_masterstrike_2h_sword_5" />
+	<action name="act_affected_masterstrike_1h_vs_2h_sword_5" />
+
+	<action name="act_affector_masterstrike_2h_sword_6" />
+	<action name="act_affected_masterstrike_2h_sword_6" />
+	<action name="act_affected_masterstrike_1h_vs_2h_sword_6" />
+
+	
+	<!-- Clinches -->
+
+		<!-- AFFECTOR и AFFECTED с любым двуручем -->
+
+	<action name="act_affector_2h_clinch_1" />
+	<action name="act_affected_2h_clinch_1" />
+	<action name="act_affected_2h_vs_1h_clinch_1" />
+
+	<action name="act_affector_2h_clinch_2" />
+	<action name="act_affected_2h_clinch_2" />
+	<action name="act_affected_2h_vs_1h_clinch_2" />
+
+		<!-- AFFECTOR и AFFECTED с любым одноручем -->
+	
+	<action name="act_affector_1h_clinch_1" />
+	<action name="act_affected_1h_clinch_1" />
+
+	<action name="act_affector_1h_clinch_2" />
+	<action name="act_affected_1h_clinch_2" />
+	<action name="act_affected_1h_vs_2h_clinch_2" />
+
+	<action name="act_affector_1h_clinch_3" />
+	<action name="act_affected_1h_clinch_3" />
+	<action name="act_affected_1h_vs_2h_clinch_3" />
+
+	<!-- Тест -->
+	<!-- <action name="act_test_ik" /> -->
+	
+</action_types>

@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<action_sets>
+  <action_set id="as_human_warrior">
+    
+    <!-- Dodges -->
+
+	<action type="act_2h_right_dodge" animation="2h_right_dodge" />
+	<action type="act_2h_left_dodge" animation="2h_left_dodge" />
+	<action type="act_2h_back_dodge" animation="2h_back_dodge" />
+
+	<action type="act_1h_right_dodge" animation="1h_right_dodge" />
+	<action type="act_1h_left_dodge" animation="1h_left_dodge" />
+	<action type="act_1h_back_dodge" animation="1h_back_dodge" />
+
+	<action type="act_other_2h_right_dodge" animation="other_2h_right_dodge" />
+	<action type="act_other_2h_left_dodge" animation="other_2h_left_dodge" />
+	<action type="act_other_2h_back_dodge" animation="other_2h_back_dodge" />
+
+
+	<!-- Master Strikes -->
+
+		<!-- ТОЛЬКО ДЛЯ AFFECTOR C МЕЧОМ -->
+
+	<action type="act_affector_masterstrike_1h_sword_only_1" animation="affector_masterstrike_1h_sword_only_1" />
+	<action type="act_affected_masterstrike_1h_sword_only_1" animation="affected_masterstrike_1h_sword_only_1" />
+	<action type="act_affected_masterstrike_1h_sword_only_1_shield_variation" animation="affected_masterstrike_1h_sword_only_1_shield_variation" />
+
+	<!-- <action type="act_affector_masterstrike_1h_sword_only_2" animation="affector_masterstrike_1h_sword_only_2" /> -->
+	<!-- <action type="act_affected_masterstrike_1h_sword_only_2" animation="affected_masterstrike_1h_sword_only_2" /> -->
+
+	<action type="act_affector_masterstrike_1h_sword_only_3" animation="affector_masterstrike_1h_sword_only_3" />
+	<action type="act_affected_masterstrike_1h_sword_only_3" animation="affected_masterstrike_1h_sword_only_3" />
+	<action type="act_affected_masterstrike_1h_sword_only_3_shield_variation" animation="affected_masterstrike_1h_sword_only_3_shield_variation" />
+	<action type="act_affected_masterstrike_2h_vs_1h_sword_only_3" animation="affected_masterstrike_2h_vs_1h_sword_only_3" />
+			
+
+		<!-- AFFECTOR и AFFECTED с любым одноручем -->
+
+	<action type="act_affector_masterstrike_1h_sword_stun" animation="affector_masterstrike_1h_sword_stun" />
+	<action type="act_affected_masterstrike_1h_sword_stun" animation="affected_masterstrike_1h_sword_stun" />
+	<action type="act_affected_masterstrike_1h_sword_stun_shield_variation" animation="affected_masterstrike_1h_sword_stun_shield_variation" />
+	<action type="act_affected_masterstrike_2h_vs_1h_sword_stun" animation="affected_masterstrike_2h_vs_1h_sword_stun" />
+
+	<!-- <action type="act_affector_masterstrike_1h_sidestep_shove" animation="affector_masterstrike_1h_sidestep_shove" /> -->
+	<!-- <action type="act_affected_masterstrike_1h_sidestep_shove" animation="affected_masterstrike_1h_sidestep_shove" /> -->
+
+	<action type="act_affector_masterstrike_1h_sword_1" animation="affector_masterstrike_1h_sword_1" />
+	<action type="act_affected_masterstrike_1h_sword_1" animation="affected_masterstrike_1h_sword_1" />
+	<action type="act_affected_masterstrike_2h_vs_1h_sword_1" animation="affected_masterstrike_2h_vs_1h_sword_1" />
+
+	<action type="act_affector_masterstrike_1h_and_shield_just_shove" animation="affector_masterstrike_1h_and_shield_just_shove" />
+	<action type="act_affected_masterstrike_1h_and_shield_just_shove" animation="affected_masterstrike_1h_and_shield_just_shove" />
+	<action type="act_affected_masterstrike_2h_vs_1h_and_shield_just_shove" animation="affected_masterstrike_2h_vs_1h_and_shield_just_shove" />			
+
+	<action type="act_affector_masterstrike_1h_and_shield_face_punch" animation="affector_masterstrike_1h_and_shield_face_punch" />
+	<action type="act_affected_masterstrike_1h_and_shield_face_punch" animation="affected_masterstrike_1h_and_shield_face_punch" />
+	<action type="act_affected_masterstrike_2h_vs_1h_and_shield_face_punch" animation="affected_masterstrike_2h_vs_1h_and_shield_face_punch" />
+
+	<action type="act_affector_masterstrike_1h_and_shield_ukol_v_plecho" animation="affector_masterstrike_1h_and_shield_ukol_v_plecho" />
+	<action type="act_affected_masterstrike_1h_and_shield_ukol_v_plecho" animation="affected_masterstrike_1h_and_shield_ukol_v_plecho" />
+	<action type="act_affected_masterstrike_2h_vs_1h_and_shield_ukol_v_plecho" animation="affected_masterstrike_2h_vs_1h_and_shield_ukol_v_plecho" />
+
+	<action type="act_affector_masterstrike_1h_and_shield_ukol_v_plecho_2" animation="affector_masterstrike_1h_and_shield_ukol_v_plecho_2" />
+	<action type="act_affected_masterstrike_1h_and_shield_ukol_v_plecho_2" animation="affected_masterstrike_1h_and_shield_ukol_v_plecho_2" />
+
+	<action type="act_affector_masterstrike_1h_and_shield_double_stab" animation="affector_masterstrike_1h_and_shield_double_stab" />
+	<action type="act_affected_masterstrike_1h_and_shield_double_stab" animation="affected_masterstrike_1h_and_shield_double_stab" />
+	<action type="act_affected_masterstrike_2h_vs_1h_and_shield_double_stab" animation="affected_masterstrike_2h_vs_1h_and_shield_double_stab" />
+
+	<action type="act_affector_masterstrike_onehanded_and_shield_1" animation="affector_masterstrike_onehanded_and_shield_1" />
+	<action type="act_affected_masterstrike_onehanded_and_shield_1" animation="affected_masterstrike_onehanded_and_shield_1" />
+
+	<action type="act_affector_masterstrike_onehanded_and_shield_2" animation="affector_masterstrike_onehanded_and_shield_2" />
+	<action type="act_affected_masterstrike_onehanded_and_shield_2" animation="affected_masterstrike_onehanded_and_shield_2" />
+
+		
+		<!-- AFFECTOR и AFFECTED с любым двуручем -->
+
+	<action type="act_affector_masterstrike_2h_sword_1" animation="affector_masterstrike_2h_sword_1" />
+	<action type="act_affected_masterstrike_2h_sword_1" animation="affected_masterstrike_2h_sword_1" />
+	<action type="act_affected_masterstrike_1h_vs_2h_sword_1" animation="affected_masterstrike_1h_vs_2h_sword_1" />
+
+	<action type="act_affector_masterstrike_2h_sword_2" animation="affector_masterstrike_2h_sword_2" />
+	<action type="act_affected_masterstrike_2h_sword_2" animation="affected_masterstrike_2h_sword_2" />
+	<action type="act_affected_masterstrike_1h_vs_2h_sword_2" animation="affected_masterstrike_1h_vs_2h_sword_2" />
+
+	<action type="act_affector_masterstrike_2h_sword_3" animation="affector_masterstrike_2h_sword_3" />
+	<action type="act_affected_masterstrike_2h_sword_3" animation="affected_masterstrike_2h_sword_3" />			
+
+	<action type="act_affector_masterstrike_2h_sword_4" animation="affector_masterstrike_2h_sword_4" />
+	<action type="act_affected_masterstrike_2h_sword_4" animation="affected_masterstrike_2h_sword_4" />
+	<action type="act_affected_masterstrike_1h_vs_2h_sword_4" animation="affected_masterstrike_1h_vs_2h_sword_4" />
+
+	<action type="act_affector_masterstrike_2h_sword_5" animation="affector_masterstrike_2h_sword_5" />
+	<action type="act_affected_masterstrike_2h_sword_5" animation="affected_masterstrike_2h_sword_5" />
+	<action type="act_affected_masterstrike_1h_vs_2h_sword_5" animation="affected_masterstrike_1h_vs_2h_sword_5" />
+
+	<action type="act_affector_masterstrike_2h_sword_6" animation="affector_masterstrike_2h_sword_6" />
+	<action type="act_affected_masterstrike_2h_sword_6" animation="affected_masterstrike_2h_sword_6" />
+	<action type="act_affected_masterstrike_1h_vs_2h_sword_6" animation="affected_masterstrike_1h_vs_2h_sword_6" />
+
+
+	<!-- Clinches -->
+
+	  <!-- AFFECTOR и AFFECTED с любым двуручем -->
+
+	<action type="act_affector_2h_clinch_1" animation="affector_2h_clinch_1" />
+	<action type="act_affected_2h_clinch_1" animation="affected_2h_clinch_1" />
+	<action type="act_affected_2h_vs_1h_clinch_1" animation="affected_2h_vs_1h_clinch_1" />
+
+	<action type="act_affector_2h_clinch_2" animation="affector_2h_clinch_2" />
+	<action type="act_affected_2h_clinch_2" animation="affected_2h_clinch_2" />
+	<action type="act_affected_2h_vs_1h_clinch_2" animation="affected_2h_vs_1h_clinch_2" />
+
+	  <!-- AFFECTOR и AFFECTED с любым одноручем -->
+
+	<action type="act_affector_1h_clinch_1" animation="affector_1h_clinch_1" />
+	<action type="act_affected_1h_clinch_1" animation="affected_1h_clinch_1" />
+
+	<action type="act_affector_1h_clinch_2" animation="affector_1h_clinch_2" />
+	<action type="act_affected_1h_clinch_2" animation="affected_1h_clinch_2" />
+	<action type="act_affected_1h_vs_2h_clinch_2" animation="affected_1h_vs_2h_clinch_2" />
+
+	<action type="act_affector_1h_clinch_3" animation="affector_1h_clinch_3" />
+	<action type="act_affected_1h_clinch_3" animation="affected_1h_clinch_3" />
+	<action type="act_affected_1h_vs_2h_clinch_3" animation="affected_1h_vs_2h_clinch_3" />
+
+	  
+  <!-- Test -->
+	<!-- <action type="act_test_ik" animation="test_ik"/> -->
+
+  </action_set>
+</action_sets>

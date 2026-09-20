@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="Русский"/>
+	</tags>
+	<strings>
+
+		<string id="HoNganQb" text="MasterStrikes (RBM) успешно загружен" />
+		<string id="FgLhzCLv" text="MasterStrikes (RBM) патчи не были применены. Отсутствует RBM. Интеграция RBM не будет работать." />
+
+		<!-- MCM настройки -->
+		<string id="VFKEDUwW" text="Общие Настройки" />
+
+		<string id="UDuGewGx" text="Ускорить восстановление выносливости при ходьбе" />
+		<string id="WTTKVeEu" text="Данная функция является скорее читерской, но она позволяет чаще использовать мастерские удары или доджи из моего мода. Увеличивает скорость восстановления выносливости (в зависимости от навыка атлетики) при ходьбе." />
+		
+	</strings>
+</base>

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	type="module_sound">
+	<module_sounds>
+		<!-- 						(((  ПАМЯТКА  )))
+  звуковые категории - это:
+	mission_ambient_bed 				постоянный			Общая обстановка сцены 
+	mission_ambient_3d_big				постоянный			Громкие окружающие звуки, например, пожар в сарае
+	mission_ambient_3d_medium			постоянный			Обычные окружающие звуки, например, шум камина
+	mission_ambient_3d_small			постоянный			Тихие окружающие звуки, например, треск факела
+	mission_material_impact			максимум 4 секунды. 	Звуки, похожие на лязг оружия
+	mission_combat_trivial			максимум 2 секунды.		Наносит дополнительный урон слою брони, похожему на фолиевую
+	mission_combat					максимум 8 секунд.		Звуки при повреждении или спуске лука
+	mission_foley					максимум 4 секунды.		Другие виды наполнителей для движения
+	mission_voice_shout				максимум 8 секунд.		Боевые кличи, выкрикиваемые приказы, лошадиное ржание и так далее.
+	mission_voice					максимум 4 секунды.		Ворчание, усилия и так далее.
+	mission_voice_trivial			максимум 4 секунды.		Небольшие упражнения, такие как прыжки
+	mission_siege_loud				максимум 8 секунд.		Большие взрывы, разрушения
+	mission_footstep				максимум 1 секунда.		Человеческие шаги
+	mission_footstep_run			максимум 1 секунда.		Бег человека (способствует усилению басов)
+	mission_horse_gallop			максимум 2 секунды.		Громкие шаги скачущего коня (усиливают басы)
+	mission_horse_walk				максимум 1 секунда.		Тихие шаги в гору, прогулка
+	ui								максимум 4 секунды.		Все звуки пользовательского интерфейса
+	alert							максимум 10 секунд.		Псевдо-3D оповещения во время выполнения задания, похожие на тревожные звоночки
+	campaign_node						постоянный			Точки на карте кампании звучат как реки и т.д.
+	campaign_bed						постоянный			Кровать для кампании ambient
+	music								постоянный			Музыкальные потоки
+  -->
+
+		
+
+		<!-- Звуки нанесения урона -->
+		<module_sound name="light_sword_slash_1h" is_2d="true" sound_category="mission_combat" path="light_sword_slash_1h.wav" />
+		<module_sound name="MS_SOUND_light_damage" is_2d="true" sound_category="mission_combat" path="MS_SOUND_light_damage.wav" />
+
+		<module_sound name="stabbing_the_1h_sword_1" is_2d="true" sound_category="mission_combat" path="stabbing_the_1h_sword_1.wav" />
+		<module_sound name="stabbing_the_1h_sword_2" is_2d="true" sound_category="mission_combat" path="stabbing_the_1h_sword_2.wav" />
+
+		<module_sound name="mace_blunt" is_2d="true" sound_category="mission_combat" path="mace_blunt.wav" />
+
+		<!-- Звуки вытекающей крови -->
+		<module_sound name="splashing_blood_1" is_2d="true" sound_category="mission_combat" path="splashing_blood_1.wav" />
+		<module_sound name="splashing_blood_2" is_2d="true" sound_category="mission_combat" path="splashing_blood_2.wav" />
+		<module_sound name="splashing_blood_3" is_2d="true" sound_category="mission_combat" path="splashing_blood_3.wav" />
+
+		<module_sound name="stubbing_deeper" is_2d="true" sound_category="mission_combat" path="stubbing_deeper.wav" />
+		
+		<!-- Звуки удара об щит или удара щитом -->
+		<module_sound name="wood_shield_block_1" is_2d="true" sound_category="mission_combat" path="wood_shield_block_1.wav" />
+		<module_sound name="wood_shield_block_2" is_2d="true" sound_category="mission_combat" path="wood_shield_block_2.wav" />
+		<module_sound name="wood_shield_block_3" is_2d="true" sound_category="mission_combat" path="wood_shield_block_3.wav" />
+		<module_sound name="wood_shield_block_4" is_2d="true" sound_category="mission_combat" path="wood_shield_block_4.wav" />
+		<module_sound name="wood_shield_block_5" is_2d="true" sound_category="mission_combat" path="wood_shield_block_5.wav" />
+		<module_sound name="wood_shield_block_6" is_2d="true" sound_category="mission_combat" path="wood_shield_block_6.wav" />
+		<module_sound name="wood_shield_block_7" is_2d="true" sound_category="mission_combat" path="wood_shield_block_7.wav" />
+
+		<module_sound name="metal_shield_block_1" is_2d="true" sound_category="mission_combat" path="metal_shield_block_1.wav" />
+		<module_sound name="metal_shield_block_2" is_2d="true" sound_category="mission_combat" path="metal_shield_block_2.wav" />
+		<module_sound name="metal_shield_block_3" is_2d="true" sound_category="mission_combat" path="metal_shield_block_3.wav" />
+
+		<module_sound name="shield_bash_1" is_2d="true" sound_category="mission_combat" path="shield_bash_1.wav" />
+		<module_sound name="shield_bash_2" is_2d="true" sound_category="mission_combat" path="shield_bash_2.wav" />
+		<module_sound name="shield_bash_3" is_2d="true" sound_category="mission_combat" path="shield_bash_3.wav" />
+		<module_sound name="shield_bash_4" is_2d="true" sound_category="mission_combat" path="shield_bash_4.wav" />
+		<module_sound name="shield_bash_5" is_2d="true" sound_category="mission_combat" path="shield_bash_5.wav" />
+		
+		
+		
+		<!-- Звуки для детализации действий -->
+		<module_sound name="swing" is_2d="true" sound_category="mission_combat" path="swing.wav" />
+
+		<module_sound name="hand_push_1" is_2d="true" sound_category="mission_combat" path="hand_push_1.wav" />
+		<module_sound name="hand_push_2" is_2d="true" sound_category="mission_combat" path="hand_push_2.wav" />
+		<module_sound name="hand_push_3" is_2d="true" sound_category="mission_combat" path="hand_push_3.wav" />
+
+		<module_sound name="lowdamage_1" is_2d="true" sound_category="mission_combat" path="lowdamage_1.wav" />
+		<module_sound name="lowdamage_2" is_2d="true" sound_category="mission_combat" path="lowdamage_2.wav" />
+		<module_sound name="lowdamage_3" is_2d="true" sound_category="mission_combat" path="lowdamage_3.wav" />		
+
+		<module_sound name="punch_block_1" is_2d="true" sound_category="mission_combat" path="punch_block_1.wav" />
+		
+		<module_sound name="leather_damage_1" is_2d="true" sound_category="mission_combat" path="leather_damage_1.wav" />
+		<module_sound name="leather_damage_2" is_2d="true" sound_category="mission_combat" path="leather_damage_2.wav" />
+		<module_sound name="leather_damage_3" is_2d="true" sound_category="mission_combat" path="leather_damage_3.wav" />
+		
+		<module_sound name="punch_shield" is_2d="true" sound_category="mission_combat" path="punch_shield.wav" />
+
+		<module_sound name="kick_1" is_2d="true" sound_category="mission_combat" path="kick_1.wav" />
+		<module_sound name="kick_2" is_2d="true" sound_category="mission_combat" path="kick_2.wav" />
+		<module_sound name="kick_3" is_2d="true" sound_category="mission_combat" path="kick_3.wav" />
+		<module_sound name="kick_4" is_2d="true" sound_category="mission_combat" path="kick_4.wav" />
+
+		<!-- Звуки звона стали о сталь -->
+		<module_sound name="sword_parry"	is_2d="true" sound_category="mission_material_impact" path="sword_parry.wav" />
+		<module_sound name="metal_parry"	is_2d="true" sound_category="mission_material_impact" path="metal_parry.wav" />
+		<module_sound name="metal_parry_2"	is_2d="true" sound_category="mission_material_impact" path="metal_parry_2.wav" />
+
+		<module_sound name="gliding_parry"	is_2d="true" sound_category="mission_material_impact" path="gliding_parry.wav" />
+
+		<!-- Звуки ударов кулаками -->
+		<module_sound name="punch_1" is_2d="true" sound_category="mission_combat" path="punch_1.wav" />
+		<module_sound name="punch_2" is_2d="true" sound_category="mission_combat" path="punch_2.wav" />
+		<module_sound name="punch_3" is_2d="true" sound_category="mission_combat" path="punch_3.wav" />
+		<module_sound name="punch_4" is_2d="true" sound_category="mission_combat" path="punch_4.wav" />
+		<module_sound name="punch_5" is_2d="true" sound_category="mission_combat" path="punch_5.wav" />
+		<module_sound name="punch_6" is_2d="true" sound_category="mission_combat" path="punch_6.wav" />
+
+		
+
+	</module_sounds>
+</base>
